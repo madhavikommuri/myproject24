@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+<body>
+<!-- Background image -->
+<div
+  class="bg-image"
+  style="
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.AQ7bywIG1Lwk3czNH8MHzQHaFI&pid=Api&P=0');
+    height: 100vh;">
+</div>
+<!-- Background image -->
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-mdb-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'images/j.jpg' %}" class="d-block w-100" alt="Wild Landscape"/>
+      </div>
+      <div class="carousel-item">
+        <img src="{%  static 'images/world.webp' %}" class="d-block w-100" alt="Camera"/>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'images/nature.jpg'  %}" class="d-block w-100" alt="Exotic Fruits"/>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="{% static 'js/mdb.min.js' %}"></script>
+</body>
+</html>
